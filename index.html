@@ -7,12 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="Css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <header>
-  <h1>Smart Fashion</h1>
-  <div class = "menu" ></div>
+    <h1>
+      <span class="smallerFont">Smart</span>
+      <span class="bigFont"> Fashion</span>
+    </h1>  <div class = "menu" ></div>
   <nav id = "menu-nav">
     <a href="index.html">Home</a>
     <a href="Garments.html">Garments</a>
@@ -23,7 +25,6 @@
   </div>
   <div class="slideshow-container">
 
-    <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
       <div class="numbertext"></div>
       <img src="images/slider1.jpg" style="width:100%">
@@ -41,9 +42,7 @@
       <div class="text"></div>
     </div>
   
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
   <br>
@@ -63,16 +62,42 @@
   </div>
 
   <h2>Brand Logos</h2>
- 
-  <a href="https://www.amazon.co.uk/Superdry-Vintage-Logo-Tri-Shirt/dp/B07RPDZ497/ref=sr_1_8?dchild=1&qid=1596145589&refinements=p_n_format_browse-bin%3A11620882031&s=clothing&sr=1-8"><img src="images/superdy.jpg" alt="Superdry-Vintage-Logo-Tri-Shirt logo"></a>
-  <a href="https://www.amazon.co.uk/Levis-17783-0109-T-Shirt-Short-Sleeve/dp/B07GQQV5PZ/ref=sr_1_1?dchild=1&qid=1596145589&refinements=p_n_format_browse-bin%3A11620882031&s=clothing&sr=1-1"><img src="images/levis.png" alt="Levis"></a>
-  <a href="https://www.amazon.co.uk/s?k=nike&rh=n%3A1769797031&ref=nb_sb_noss"><img src="images/nike.png" ></a>
-  
-  <!-- footer with email and links to four pages -->
+  <a><img class="pic" src="images/superdy.jpg" ></a>
+  <a ><img class="pic" src="images/levis.png" alt="Levis"></a>
+  <a ><img  class="pic" src="images/nike.png" ></a>
   <br>
-<br>
 
+  <br>
+  <div class="flex-container">
 
+    <div class="card items">
+      <img class="zoom" src="images/Shoes/g2.png" alt="Foamposite"
+        style="width:100%;">
+      <h4> Super </h4>
+      <h5 >£15.00</h5>
+      <p>Play ball! Take to the field or the classroom in this classic contrasting
+         baseball tee by Tultex. An always-fashionable style, this baseball T-shirt is 
+        great by itself or as a layer under a T-shirt or hoodie.</p>
+      <p><button >Shop Now</button></p>
+    </div>
+    <div class="card items">
+      <img class="zoom" src="images/Shoes/g1.png" alt=" Nike Dunk" style="width:100%">
+      <h4> Levis</h4>
+      <h5 >£100.00</h5>
+      <p>Play ball! Take to the field or the classroom in this classic contrasting baseball tee by Tultex. An always-fashionable style, this baseball
+         T-shirt is great by itself or as a layer under a T-shirt or hoodie.
+        </p>
+      <p><button >Shop Now</button></p>
+    </div>
+    <div class="card items">
+      <img class="zoom" src="images/Shoes/p1.png" alt="Nike CR7" style="width:100%">
+      <h4>Nike Shirt</h4>
+      <h5 >£27.00</h5>        <p>Play ball! Take to the field or the classroom in this classic contrasting baseball tee by Tultex. An always-fashionable style, this baseball 
+        Pent is great by itself or as a layer under a Stylish and full style Pent.
+        </p>
+      <p><button >Shop Now</button></p>
+    </div>
+ 
   <footer>
     <p>Copyright @ 2020 Developed by Peter Guga</p>
     <div class="social">
@@ -86,8 +111,10 @@
       </a>
       
     </div>
-  </footer>
+  
 
+  </footer>
   <script src="js/script.js"></script>
+
 </body>
 </html>
