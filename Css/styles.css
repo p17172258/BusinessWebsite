@@ -317,12 +317,9 @@ canvas
 
 }
 
-.pic 
-{
-    object-fit: cover;
-    width: 300px;
-    height: 250px;
-    margin-left: 150px;
-  
+img {
+  object-fit: cover;
+  width: 300px;
+  height: 250px;
+  margin-left: 150px;
 }
-
