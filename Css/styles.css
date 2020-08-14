@@ -323,3 +323,9 @@ img {
   height: 250px;
   margin-left: 150px;
 }
+.test {
+  object-fit: cover;
+  width: 300px;
+  height: 250px;
+  margin-left: 150px;
+}
